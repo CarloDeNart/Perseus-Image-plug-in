@@ -18,7 +18,7 @@ function has to be selected and the (fixed) parameters have to be specified:
 
 #. **Linear HRFs:**
 
- #. Fixed parameters
+ a) Fixed parameters
  
  * Gamma function (3 fixed parameters to set, one free parameter). |The parameters T0, sdf and n can be chosen by the user.
  
