@@ -16,7 +16,7 @@ For the Correlation Method, the Haemodynamic Response Function (HRF,
 choices: *linear - fixed*, *linear - free* parameters or *non-linear*. Then, one specific
 function has to be selected and the (fixed) parameters have to be specified:
 
-#. Linear HRFs:
+#. **Linear HRFs:**
 
 *(a)* Fixed parameters
  * Gamma function (3 fixed parameters to set, one free parameter)
