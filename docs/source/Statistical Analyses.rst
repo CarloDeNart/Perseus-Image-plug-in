@@ -19,6 +19,7 @@ function has to be selected and the (fixed) parameters have to be specified:
 #. **Linear HRFs:**
 
  *(a)* Fixed parameters
+ 
   * Gamma function (3 fixed parameters to set, one free parameter)
 
   
