@@ -4,7 +4,7 @@
 
 project = 'Perseus Image plug-in'
 copyright = '2021, Coxlab'
-author = 'Bela Frohn, Carlo De Nart'
+author = 'Bela Frohn & Carlo De Nart'
 
 release = '0.1'
 version = '0.1.0'
