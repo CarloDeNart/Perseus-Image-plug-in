@@ -21,6 +21,7 @@ function has to be selected and the (fixed) parameters have to be specified:
     a.  Fixed parameters
  
         *  Gamma function (3 fixed parameters to set, one free parameter). 
+        
            | The parameters T0, sdf and n can be chosen by the user.
  
         *  Difference of two gamma functions (5 fixed parameters to set, 1 free parameter). 
