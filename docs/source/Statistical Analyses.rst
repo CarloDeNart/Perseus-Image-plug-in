@@ -22,12 +22,14 @@ function has to be selected and the (fixed) parameters have to be specified:
  
         *  Gamma function (3 fixed parameters to set, one free parameter). 
      
-           :math:`\underline{x}=[  x_{1}, ...,  x_{n}]^{T}`
+           :math:`hrf(t)=\begin{cases}\dfrac{(t-T_0)^{n-1}}{\lambda^n(n-1)!} e^{-t/\lambda} &&& \text{for } t>T_0 \\0&&& \text{for } t<T_0\end{cases}`
            
            The parameters :math:`T_0`, :math:`\lambda` and :math:`n` can be chosen by the user.
  
         *  Difference of two gamma functions (5 fixed parameters to set, 1 free parameter). 
         
-           The parameters a, sf1, sdf2, n1 and n2 can be chosen by the user. C is the integral of the terms in square brackets.
+           :math:`\underline{x}=[  x_{1}, ...,  x_{n}]^{T}`
+        
+           The parameters :math:`a`, :math:`\lambda_1`, :math:`\lambda_2`, :math:`n_1` and :math:`n_2` can be chosen by the user. :math:`C` is the integral of the terms in square brackets.
 
   
