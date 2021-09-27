@@ -32,4 +32,23 @@ function has to be selected and the (fixed) parameters have to be specified:
         
            The parameters :math:`a`, :math:`\lambda_1`, :math:`\lambda_2`, :math:`n_1` and :math:`n_2` can be chosen by the user. :math:`C` is the integral of the terms in square brackets.
 
+    b.  Estimated parameters
+    
+        The HRF is modelled as sum of :math:`I` basis functions :math:`b_i(t)` weighted by factors :math:`\theta_i`(see Friston et al. 1998):
+        
+        
+        This allows to integrate only once, thus enormously speeding up the calculations. The basis functions can be chosen by the user:
+        
+        *  Three gamma probability density functions (no fix parameters to set, 3 free parameters).
+           As suggested by Friston et al 1998:
+           
+           
+        *  Finite Impulse Response FIR (1 fix parameter to set, :math:`I` free parameters).
+           See Ashby 2019 (p. 32). The basis functions are series of delta functions. There is one impulse for each TR, se the user has to specify the assumed length of :math:`l_HRF` of the HRF, and the number of delta functions :math:`I` is calculated by:
+           
+           
+           where the brackets denote the *floor function*. The :math:`I` basis function are:
+           
+           
+           
   
