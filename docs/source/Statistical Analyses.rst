@@ -21,9 +21,9 @@ function has to be selected and the (fixed) parameters have to be specified:
     a.  Fixed parameters
  
         *  Gamma function (3 fixed parameters to set, one free parameter). 
-        ..math::
+      
            
- .. math:: The parameters *T0*, \lambda and *n* can be chosen by the user.
+           The parameters *T0*, :math:{\lambda} and *n* can be chosen by the user.
  
         *  Difference of two gamma functions (5 fixed parameters to set, 1 free parameter). 
         
