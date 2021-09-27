@@ -2,16 +2,14 @@
 Statistical Analyses
 ********************
 
-.. _Statistical analyses:
-
 Univariate Analyses
 ===================
 
 General Linear Model
-^^^^^^^^^^^^^^^^^^^^
+--------------------
 
 Correlation Method
-""""""""""""""""""
+^^^^^^^^^^^^^^^^^^
  
 For the Correlation Method, the Haemodynamic Response Function (HRF,
 *hrf(t)*) has to be specified. Perseus first asks the user to select from three
