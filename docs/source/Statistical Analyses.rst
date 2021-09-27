@@ -1,10 +1,11 @@
+********************
 Statistical Analyses
-====================
+********************
 
 .. _Statistical analyses:
 
 Univariate Analyses
-===================
+-------------------
 
 General Linear Model
 --------------------
