@@ -4,10 +4,10 @@ Statistical Analyses
 .. _Statistical analyses:
 
 Univariate Analyses
--------------------
+===================
 
 General Linear Model
-=====================
+--------------------
 
 **Correlation Method**
  
@@ -18,7 +18,7 @@ function has to be selected and the (fixed) parameters have to be specified:
 
 #. Linear HRFs:
 
-Fixed parameters
-* Gamma function (3 fixed parameters to set, one free parameter)
+(a) Fixed parameters
+ * Gamma function (3 fixed parameters to set, one free parameter)
 
   
