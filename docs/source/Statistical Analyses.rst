@@ -69,7 +69,7 @@ function has to be selected and the (fixed) parameters have to be specified:
            .. math:: b_1(t) = \delta(t-(i-1)TR)
               :label: eq9
            
-        *  Gamma functions with derivate (3 or 5 fix parameters to set, 2 free parameters). One of the HRF functions with fixed parameters is selected (equations `:eq:`eq1` or `:eq:`eq2`, here denoted as :math:`b(t)`, indicating that it is a base function and not the HRF), and its (temporal) derivate :math:`\dot{b}(t)` is calculated. The HRF then becomes:
+        *  Gamma functions with derivate (3 or 5 fix parameters to set, 2 free parameters). One of the HRF functions with fixed parameters is selected (equations :eq:`eq1` or :eq:`eq2`, here denoted as :math:`b(t)`, indicating that it is a base function and not the HRF), and its (temporal) derivate :math:`\dot{b}(t)` is calculated. The HRF then becomes:
         
            .. math:: hrf(t) = \theta_1b(t)+\theta_2\dot{b}(t)
               :label: eq10
@@ -124,4 +124,4 @@ function has to be selected and the (fixed) parameters have to be specified:
     .. math:: \beta = \begin{bmatrix}\beta_A \\ \beta_B \\ B_0 \\ \Delta \end{bmatrix}
        :label: eq17
     
-    The user can indicate the vector :math:`c`, which will then be tested for the null hypothesis stated in equation `:eq:`eq15`.
+    The user can indicate the vector :math:`c`, which will then be tested for the null hypothesis stated in equation :eq:`eq15`.
