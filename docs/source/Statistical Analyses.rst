@@ -22,8 +22,7 @@ function has to be selected and the (fixed) parameters have to be specified:
  
         *  Gamma function (3 fixed parameters to set, one free parameter). 
      
-           .. math:: `hrf(t)=\begin{cases}\dfrac{(t-T_0)^{n-1}}{\lambda^n(n-1)!} e^{-t/\lambda} &&& \text{for } t>T_0 \\0&&& \text{for } t<T_0\end{cases}`
-           \tag{1}\label{eq:1}
+           .. math:: `hrf(t)=\begin{cases}\dfrac{(t-T_0)^{n-1}}{\lambda^n(n-1)!} e^{-t/\lambda} &&& \text{for } t>T_0 \\0&&& \text{for } t<T_0\end{cases}` \tag{1}\label{eq:1}
            
            The parameters :math:`T_0`, :math:`\lambda` and :math:`n` can be chosen by the user.
  
