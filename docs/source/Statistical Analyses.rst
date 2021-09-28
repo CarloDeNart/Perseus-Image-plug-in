@@ -22,7 +22,8 @@ function has to be selected and the (fixed) parameters have to be specified:
  
         *  Gamma function (3 fixed parameters to set, one free parameter). 
      
-           :math:`hrf(t)=\begin{cases}\dfrac{(t-T_0)^{n-1}}{\lambda^n(n-1)!} e^{-t/\lambda} &&& \text{for } t>T_0 \\0&&& \text{for } t<T_0\end{cases}`
+           .. math:: `hrf(t)=\begin{cases}\dfrac{(t-T_0)^{n-1}}{\lambda^n(n-1)!} e^{-t/\lambda} &&& \text{for } t>T_0 \\0&&& \text{for } t<T_0\end{cases}`
+           :label: 1
            
            The parameters :math:`T_0`, :math:`\lambda` and :math:`n` can be chosen by the user.
  
@@ -84,4 +85,18 @@ function has to be selected and the (fixed) parameters have to be specified:
     
     **Comment: using your own HRF**
     
-    It is possible to use user-defined HRFs. To do so, an array with data points approximating the HRF must be provided, together with specifications about what timesteps this array has. The HRF must not have values of :math:`t` \textexclamdown :math:`0` and must be :math:`0` at :math:`t = 0`.
+    It is possible to use user-defined HRFs. To do so, an array with data points approximating the HRF must be provided, together with specifications about what timesteps this array has. The HRF must not have values of :math:`t` ¡ :math:`0` and must be :math:`0` at :math:`t = 0`.
+
+3.  Currently, there is only the option to test ONE LINEAR hypothesis. This hypothesis must be able to be written in the following way:
+
+
+    
+    Where :math:`\beta` is the vector of free parameters fitted in the previous step, and :math:`c` is a vector defined by the user. As example, let us assume that :math:`\beta_1` is the free parameter associated with an event of type A while :math:`\beta_2` is the free parameter associated with an event of type B. We now want to ask if a voxel is more responsive to A than to B. Then, the vector :math:`c` would be:
+    
+    
+    
+    Here, we assumed that also a baseline :math:`B_0` and drift :math:`\Delta` parameters are included, so the :math:`\beta` vector is:
+    
+    
+    
+    The user can indicate the vector :math:`c`, which will then be tested for the null hypothesis stated in eq. 15
