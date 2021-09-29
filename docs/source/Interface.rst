@@ -1,19 +1,13 @@
+**********
 Interface
-=========
+**********
 
-.. _Main GUI:
+Installation
+=============
+
+
 
 Main GUI
---------
+=========
 
 The GUI is very nice
-
-Import data
------------
-
-Importing the images is very easy
-
-Visualize images
-----------------
-
-Nice are, aren't they?
