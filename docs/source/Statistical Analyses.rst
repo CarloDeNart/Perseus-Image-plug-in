@@ -2,8 +2,8 @@
 Statistical Analyses
 ********************
 
-Univariate Analyses
-===================
+First Level Analysis
+=====================
 
 General Linear Model
 --------------------
@@ -125,3 +125,8 @@ function has to be selected and the (fixed) parameters have to be specified:
        :label: eq17
     
     The user can indicate the vector :math:`c`, which will then be tested for the null hypothesis stated in equation :eq:`eq15`.
+    
+    
+    
+Second Level Analysis
+======================
