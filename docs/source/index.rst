@@ -1,7 +1,7 @@
 Perseus Image Plug-in Documentation
 ===================================
 
-**Perseus** is a freely available data analysis program that now can analyse also fMRI images. Operative systems currently supported: Windows and Linux
+**Perseus** is a freely available data analysis program that now can analyse also fMRI images. Operative systems currently supported: Windows and Linux.
 
 Perseus was developed in `CoxLab <https://www.biochem.mpg.de/cox>`_. To download and know more about it go to this `link <https://maxquant.net/perseus/>`_.
 
