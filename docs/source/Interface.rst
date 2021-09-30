@@ -15,6 +15,6 @@ Main GUI
 .. image:: Images/interface.PNG
    :width: 800px 
    
-   
+   image description
 
 Straporco il Signore
