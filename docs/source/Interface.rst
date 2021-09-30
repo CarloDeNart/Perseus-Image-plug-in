@@ -12,9 +12,9 @@ Installation
 Main GUI
 =========
 
-.. image:: Images/interface.PNG
+.. image:: Images/interface.gif
    :width: 800px 
    :alt: Perseus graphic interface
    :class: with-shadow
 
-Straporco il Signore
+
