@@ -13,7 +13,7 @@ Main GUI
 =========
 
 .. image:: Images/interface.PNG
-   :width: 400px 
+   :width: 800px 
    
    
 
