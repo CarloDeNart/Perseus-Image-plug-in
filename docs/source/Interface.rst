@@ -16,7 +16,5 @@ Main GUI
    :width: 800px 
    :alt: Perseus graphic interface
    :class: with-shadow
-   
-   image description
 
 Straporco il Signore
