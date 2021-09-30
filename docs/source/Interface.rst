@@ -2,6 +2,8 @@
 Interface
 **********
 
+In this section will be presented a general description of the program: on how to make it run properly to the main interface and how to navigate it.
+
 Installation
 =============
 
@@ -10,4 +12,9 @@ Installation
 Main GUI
 =========
 
-The GUI is very nice
+.. image:: ../images/Interface.PNG
+   :alt: Picture of the main interface
+   :class: with-shadow
+   :width: 400
+   
+   Image description
