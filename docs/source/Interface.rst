@@ -13,12 +13,8 @@ Main GUI
 =========
 
 .. image:: Images/interface.PNG
-   :target: Images/interface.PNG
-   :height: 300px
-   :width: 400px
-   :alt: Picture of the main interface
-   :align: centre
+   :width: 400px 
    
-   Image description
+   
 
 Straporco il Signore
