@@ -12,7 +12,7 @@ Installation
 Main GUI
 =========
 
-.. image:: Images/interface.PNG
+.. image:: /Images/interface.PNG
    :height: 300px
    :width: 400px
    :alt: Picture of the main interface
