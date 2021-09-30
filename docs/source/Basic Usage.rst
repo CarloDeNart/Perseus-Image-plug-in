@@ -2,8 +2,10 @@
 Basic Usage
 **************
 
-Loading Data
-=============
+.. _load:
+
+Load Data
+===========
 
 BIDS Upload
 ------------
@@ -20,15 +22,21 @@ Generic Upload
 
 
 
-.. Data-type:
+.. _data-type:
 
 Data Types
 ===========
+
+
+
+.. _functional:
 
 Functional Images
 ------------------
 
 
+
+.. _anatomical:
 
 Anatomical Images
 ------------------
@@ -39,11 +47,13 @@ Parameter Maps
 ---------------
 
 
+.. _save:
 
 Save Data
 ==========
 
 
+.. _visualize:
 
 Visualize Images
 =================
