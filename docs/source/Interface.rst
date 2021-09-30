@@ -16,7 +16,6 @@ Main GUI
    :height: 300px
    :width: 400px
    :alt: Picture of the main interface
-   :class: with-shadow
    :align: centre
    
    Image description
