@@ -34,7 +34,7 @@ Top part of the interface. In this section all commands and functions are shown.
 
 Bottom part of the interface. Here is possible to visualize images, keep track of all the processing steps done and check the parameters used.
 
-1. In this part images will appear when is selected to visualize them. The cursor can be freely moved through the three dimensions by clicking on it. Below the images there is a slider that allows to select the colors, by right clicking on the arrow it will be removed. By left clicking on the arrow is instead possible to move it or to change the color. Below the color legend there is a slider that allows to move the image through the fourth dimension (time)
+1. In this part images will appear when is selected to visualize them. The cursor can be freely moved through the three dimensions by clicking on it. Below the images there is a slider that allows to select the colors, by right clicking on the arrow it will be removed. By left clicking on the arrow is instead possible to move it or to change the color. Below the color legend there is a slider that allows to move the image through the fourth dimension (time).
 
 2. This is still part of the image visualization. Here is possible to see how many images and of which type are stored in an *image collection*. Images are divided first into functional (:ref:`Functional Images <functional>`) and anatomical (:ref:`Anatomical Images <anatomical>`). Then moving through the same line in the data frame is possible to check of which subject, session or run the image belongs to. In this section other information on the image are stored, like its dimensions and the complete name.
 
