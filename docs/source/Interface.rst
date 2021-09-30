@@ -12,7 +12,7 @@ Installation
 Main GUI
 =========
 
-.. image:: Perseus-Image-plug-in/docs/source/images/Interface.PNG
+.. image:: Perseus-Image-plug-in/docs/source/images/interface.PNG
    :alt: Picture of the main interface
    :class: with-shadow
    :width: 400
