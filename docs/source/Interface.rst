@@ -13,8 +13,10 @@ Main GUI
 =========
 
 .. image:: Images/interface.PNG
-  :alt: Picture of the main interface
-  :class: with-shadow
-  :width: 400
+   :height: 300px
+   :width: 400px
+   :alt: Picture of the main interface
+   :class: with-shadow
+   :align: centre
    
    Image description
