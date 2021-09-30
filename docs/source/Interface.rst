@@ -14,6 +14,8 @@ Main GUI
 
 .. image:: Images/interface.PNG
    :width: 800px 
+   :alt: Perseus graphic interface
+   :class: with-shadow
    
    image description
 
