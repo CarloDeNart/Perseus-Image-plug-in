@@ -25,12 +25,13 @@ If the *.json* file containing the information regarding each functional run is 
 5. *Slice order*: depending on the scanner used, slices can be consequential or interleaved. Consequential ones can be *bottom -> up* (starting from the first one) or *up -> bottom* (starting from the last one). 
 6. *Select runs*: 
 
-Head motion correction (SPM)
+Head Motion Correction (SPM)
 =============================
 
 
 
-**Usage**
+Head Motion Correction Parameters
+----------------------------------
 
 
 
@@ -39,7 +40,8 @@ Coregistration (SPM)
 
 
 
-**Usage**
+Coregistration Parameters
+--------------------------
 
 
 
@@ -48,7 +50,8 @@ Normalisation (SPM)
 
 
 
-**Usage**
+Normalisation Parameters
+-------------------------
 
 
 
@@ -57,7 +60,8 @@ Segmentation (SPM)
 
 
 
-**Usage**
+Segmentation Parameters
+------------------------
 
 
 
@@ -66,7 +70,8 @@ Smoothing (SPM)
 
 
 
-**Usage**
+Smoothing Parameters
+---------------------
 
 
 
@@ -75,5 +80,6 @@ Masking
 
 
 
-**Usage**
+Masking Parameters
+-------------------
 
