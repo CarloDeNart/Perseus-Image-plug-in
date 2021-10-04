@@ -13,7 +13,8 @@ To acquire fMRI images the scanner divides the area investigated in slices (2D-p
 
 **If repetition time is around one second slice timing is not necessary. Instead in the case repetition time is over two seconds, slice timing significantly increases statistical power in further analyses.**
 
-**Usage**
+Slice Timing Parameters
+------------------------
 
 If the *.json* file containing the information regarding each functional run is present, Perseus will get autonomously *Repetition Time*. It is still recommended to check if the numbers are correct before proceeding with the slice timing.
 
