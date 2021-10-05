@@ -23,7 +23,10 @@ Contents
 
 .. toctree::
 
-   Interface
-   Basic Usage
-   Preprocessing
-   Statistical Analyses
+   **Interface**
+   
+   **Basic Usage**
+   
+   **Preprocessing**
+   
+   **Statistical Analyses**
