@@ -94,7 +94,7 @@ Coregistration Parameters
 7. **Histogram smoothing**:
 8. **Interpolation**:
 9. **Wrapping**:
-10 **Masking**:
+10. **Masking**:
 
 Normalisation (SPM)
 ====================
