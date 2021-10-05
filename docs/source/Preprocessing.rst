@@ -163,10 +163,11 @@ Smoothing Parameters
 Masking
 ========
 
-1. **Threshold**:
-2. **Masks**:
-3. **Select runs**:
+
 
 Masking Parameters
 -------------------
 
+1. **Threshold**:
+2. **Masks**:
+3. **Select runs**:
