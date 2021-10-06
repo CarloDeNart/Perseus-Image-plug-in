@@ -24,9 +24,6 @@ Contents
 .. toctree::
 
    Interface
-   
-   Basic Usage
-   
+   Basic Usage 
    Preprocessing
-   
    Statistical Analyses
