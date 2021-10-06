@@ -22,6 +22,7 @@ Contents
 --------
 
 .. toctree::
+   :numbered:
 
    Interface
    Basic Usage 
