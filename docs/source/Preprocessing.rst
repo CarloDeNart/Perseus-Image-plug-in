@@ -80,7 +80,7 @@ Estimate & Unwarp Parameters
 Coregistration (SPM)
 =====================
 
-
+fMRI images have a low resolution, to overcome this issue they are acquired together with an anatomical image (T1 or T2 MRI scan). The anatomical image has different different dimenstions and coordinates do not match those of the functional runs. Coregistration allows to reslice either the anatomical image or the functional ones so they both have same dimensions, resolution and coordinates coincide.
 
 Coregistration Parameters
 --------------------------
@@ -99,7 +99,7 @@ Coregistration Parameters
 Normalisation (SPM)
 ====================
 
-
+The brain's structure varies significantly between humans, this complicates second level analyses and comparisons across multiple subjects. Normalisation allows to modify subjects' brains so they will all coincide with the template used. In this way all images are superimposable, so they can be studied together to find similar activation patterns across subjects.
 
 Normalisation Parameters
 -------------------------
@@ -124,7 +124,7 @@ Normalisation Parameters
 Segmentation (SPM)
 ===================
 
-
+Through segmentation the anatomical image is divided into different segments, each one of them representing a tissue in the head. There are 6 segments in total: grey matter, white matter, ventricular system, meninges, skull and everything that in the image is outside the head (called other). Segments can be used then to mask functional images and perform analyses only on the wanted tissue. Segmentation can be used also to normalise the anatomical image, running first the segmentation and saving the deformation field, then running normalisation reslice only.
 
 Segmentation Parameters
 ------------------------
@@ -148,7 +148,7 @@ Segmentation Parameters
 Smoothing (SPM)
 ================
 
-
+Functional runs have a high level of noise, with smoothing the mean is calculated for each voxel with a Gaussian and considering nearby voxels. This command allows to reduce high signal voxels and enhance low signal ones. This is only spatial smoothing, for temporal smoothing there is another command
 
 Smoothing Parameters
 ---------------------
@@ -163,7 +163,7 @@ Smoothing Parameters
 Masking
 ========
 
-
+If segments are present, with this command is possible to select only spefic tissues in the functional images masking all the others.
 
 Masking Parameters
 -------------------
