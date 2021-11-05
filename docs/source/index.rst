@@ -27,4 +27,5 @@ Contents
    Interface
    Basic Usage 
    Preprocessing
-   Statistical Analyses
+   Univariate Analyses
+   Multivariate Analyses
