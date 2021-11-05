@@ -23,6 +23,18 @@ When one uses ICA to analyse fMRI data, one first has to decide wether to perfor
 Theory
 --------------------
 
+For a gentle introductino to ICA we refer to an excellent tutorial on arXiv: https://arxiv.org/abs/1404.2986 . For a general idea, also consider Wikipedia (https://en.wikipedia.org/wiki/Independent_component_analysis). The algorithm we use is called FastICA (https://en.wikipedia.org/wiki/FastICA).
+
+Prerequisite: Flattening the data
+^^^^^^^^^^^^^^^^^^^
+
+ICA in general
+^^^^^^^^^^^^^^^^^^^
+
+FastICA algorithm 
+^^^^^^^^^^^^^^^^^^^
+
+
 Usage
 --------------------
 
