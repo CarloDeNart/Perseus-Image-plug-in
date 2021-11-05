@@ -1,5 +1,5 @@
 ********************
-Univariate Analyses
+Multivariate Analyses
 ********************
 
 In this part all statistical tools for fMRI implemented in Perseus will be discussed, from the first level analysis (statistics on one single subject) to the second level analysis (multiple subjects comparison)
