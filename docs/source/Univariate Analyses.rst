@@ -1,5 +1,5 @@
 ********************
-Statistical Analyses
+Univariate Analyses
 ********************
 
 In this part all statistical tools for fMRI implemented in Perseus will be discussed, from the first level analysis (statistics on one single subject) to the second level analysis (multiple subjects comparison)
@@ -126,9 +126,4 @@ function has to be selected and the (fixed) parameters have to be specified:
     .. math:: \beta = \begin{bmatrix}\beta_A \\ \beta_B \\ B_0 \\ \Delta \end{bmatrix}
        :label: eq17
     
-    The user can indicate the vector :math:`c`, which will then be tested for the null hypothesis stated in equation :eq:`eq15`.
-    
-    
-    
-Second Level Analysis
-======================
+    The user can indicate the vector :math:`c`, which will then be tested for the null hypothesis stated in equation :eq:`eq15`
