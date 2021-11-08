@@ -62,5 +62,24 @@ FastICA algorithm
 
 The algorithm we use is called FastICA and calculates the independent components iteratively. This allows to set an upper number of components, saving precious computation time as for most studies only the first few components are of interest. It is well described in Wikipedia. 
 
+First, the data is *prewhitened* (centered and whitened) before the independent components are extracted. This consists of two steps: 
+
+1. *Centering*: Every row :math:`\textbf{x}_j`is centered, that is, the mean of the row an entry belongs to is substracted from each entry: 
+
+.. math:: x_j^i = \textbf{x}_j^i - \frac{1}{m} \sum_i x_j^i
+
+Then, the rows have mean zero. 
+
+2. *Whitening*: The dimensions of the data transformed linearly such that they are uncorrelated. Mathematically speaking, the covariance matrix is set to the identity matrix. This is equivalent to projecting the data onto the principal components (thus, this step is a Principal Compoment Analysis, PCA). It can be shown that this is achieved by performing an eigenvalue decomposition of the covariance matrix of the data: 
+
+.. math:: \textbf{C} = \textbf{E} \textbf{D} \textbf{E}^T
+
+where :math:`\textbf{C}` is the covariance matrix, :math:`\textbf{D}` is the diagonal matrix containing the eigenvectors of :math:`\textbf{C}`, and :math:`\textbf{E}` is the matrix whose columns are the eigenvectors of :math:`\textbf{C}`. Then, the *whitened* data is given by 
+
+.. math:: \textbf{X}_{whitened} = \textbf{A} \textbf{X} = \textbf{D}^{\frac{-1}{2}} \textbf{E}^T \textbf{X}
+
+wheew :math:`\textbf{A} = \textbf{D}^{\frac{-1}{2}} \textbf{E}^T` is the *whitening matrix*. 
+
+
 Usage
 --------------------
