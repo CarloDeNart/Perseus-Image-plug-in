@@ -28,12 +28,14 @@ For a gentle introduction to ICA we refer to an excellent tutorial on arXiv: htt
 Prerequisite: Flattening the data
 ^^^^^^^^^^^^^^^^^^^
 
-ICA takes n samples with m dimensions as input. They are arranged in a (m x n) matrix such that each column represents is a m-dimensional sample. If ICA is performed on fMRI data, the dimensions are the timesteps, and the voxels are the samples. Thus, we need to first flatten the four-dimensional data (t,x,y,z) to two dimensions: time and space. This is done via flattening each 3D image to a 1D image by simply concatenating all voxels. This is done for every timestep, such that a matrix of dimensions (t, x*y*z) results. This is then the input for the ICA algorithm. 
+ICA takes n samples with m dimensions as input. They are arranged in a (m x n) matrix such that each column is a m-dimensional sample. If ICA is performed on fMRI data, the dimensions are the timesteps, and the voxels are the samples. Thus, we need to first flatten the four-dimensional data (t,x,y,z) to two dimensions: time and space. This is done via flattening each 3D image to a 1D image by simply concatenating all voxels. This is done for every timestep, such that a matrix of dimensions (t, x*y*z) results. This is then the input for the ICA algorithm. 
 
 [TODO: Picture]
 
 ICA in general
 ^^^^^^^^^^^^^^^^^^^
+
+The idea behind ICA is that the measured m-dimensional data :math:`\textbf{X} \in \mathbb{R}^{(m \times n)}`
 
 FastICA algorithm 
 ^^^^^^^^^^^^^^^^^^^
