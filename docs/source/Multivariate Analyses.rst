@@ -23,10 +23,14 @@ When one uses ICA to analyse fMRI data, one first has to decide wether to perfor
 Theory
 --------------------
 
-For a gentle introductino to ICA we refer to an excellent tutorial on arXiv: https://arxiv.org/abs/1404.2986 . For a general idea, also consider Wikipedia (https://en.wikipedia.org/wiki/Independent_component_analysis). The algorithm we use is called FastICA (https://en.wikipedia.org/wiki/FastICA).
+For a gentle introduction to ICA we refer to an excellent tutorial on arXiv: https://arxiv.org/abs/1404.2986 . For a general idea, also consider Wikipedia (https://en.wikipedia.org/wiki/Independent_component_analysis). The algorithm we use is called FastICA (https://en.wikipedia.org/wiki/FastICA).
 
 Prerequisite: Flattening the data
 ^^^^^^^^^^^^^^^^^^^
+
+ICA takes n samples with m dimensions as input. They are arranged in a (m x n) matrix such that each column represents is a m-dimensional sample. If ICA is performed on fMRI data, the dimensions are the timesteps, and the voxels are the samples. Thus, we need to first flatten the four-dimensional data (t,x,y,z) to two dimensions: time and space. This is done via flattening each 3D image to a 1D image by simply concatenating all voxels. This is done for every timestep, such that a matrix of dimensions (t, x*y*z) results. This is then the input for the ICA algorithm. 
+
+[TODO: Picture]
 
 ICA in general
 ^^^^^^^^^^^^^^^^^^^
