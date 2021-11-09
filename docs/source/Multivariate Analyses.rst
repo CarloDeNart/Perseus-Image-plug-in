@@ -64,9 +64,9 @@ The algorithm we use is called FastICA and calculates the independent components
 
 First, the data is *prewhitened* (centered and whitened) before the independent components are extracted. This consists of two steps: 
 
-1. *Centering*: Every row :math:`\textbf{x}_j`is centered, that is, the mean of the row an entry belongs to is substracted from each entry: 
+1. *Centering*: Every row :math:`\textbf{x}_j` is centered, that is, the mean of the row an entry belongs to is substracted from each entry: 
 
-.. math:: x_j^i = \textbf{x}_j^i - \frac{1}{m} \sum_i x_j^i
+.. math:: x_j^i \leftarrow x_j^i - \frac{1}{m} \sum_j x_j^i
 
 Then, the rows have mean zero. 
 
