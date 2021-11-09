@@ -62,7 +62,9 @@ FastICA algorithm
 
 The algorithm we use is called FastICA and calculates the independent components iteratively. This allows to set an upper number of components, saving precious computation time as for most studies only the first few components are of interest. It is well described in Wikipedia. 
 
-First, the data is *prewhitened* (centered and whitened) before the independent components are extracted. This consists of two steps: 
+**Prewhitening**
+
+The data is *prewhitened* before the independent components are extracted. This consists of two steps: 
 
 1. *Centering*: Every row :math:`\textbf{x}_j` is centered, that is, the mean of the row an entry belongs to is substracted from each entry: 
 
@@ -78,7 +80,15 @@ where :math:`\textbf{C}` is the covariance matrix, :math:`\textbf{D}` is the dia
 
 .. math:: \textbf{X}_{whitened} = \textbf{A} \textbf{X} = \textbf{D}^{\frac{-1}{2}} \textbf{E}^T \textbf{X}
 
-wheew :math:`\textbf{A} = \textbf{D}^{\frac{-1}{2}} \textbf{E}^T` is the *whitening matrix*. 
+where :math:`\textbf{A} = \textbf{D}^{\frac{-1}{2}} \textbf{E}^T` is the *whitening matrix*. 
+
+*Prewhitening* is the combination of centering and whitening. Graphically, this can be visualised as linearly transforming the data such that it scatters in a sphere around the origin (see https://arxiv.org/abs/1404.2986 page 6).
+
+[img]
+
+**Extracting Components**
+
+
 
 
 Usage
